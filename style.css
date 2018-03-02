@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: auto;
@@ -56,9 +57,8 @@ h3{
   align-content: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size:30px;
-
-	
 }
+
 /* =Navigation
 ---------------------------*/
 .site-navigation ul {
@@ -113,7 +113,7 @@ h3{
 	margin-left: 30px;
 	display-text: inline;
 	background-color: white;
-	height: 800px;
+	height: 900px;
 	
   }
 
@@ -225,4 +225,39 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+}
+
+/* Photo Gallery */
+div.gallery {
+    margin: 15px;
+    border: px solid #ccc;
+    float: left;
+    width: 250px;
+	height: 200px;
+}
+
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    margin-top: -30px;
+    text-align: center;
+	background-color: #4aaaa5;
+	width: 250px;
+	height: 70px;
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
